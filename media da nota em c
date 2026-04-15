@@ -14,7 +14,7 @@ int main() {
     scanf("%f", &n3); 
     
     media = (n1+ n2+ n3) / 3; 
-    printf("a media e %f", media); 
+    printf("a media e %.2f", media); 
 
     return 0;
 }
