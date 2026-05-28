@@ -1,4 +1,5 @@
-let num = prompt("escreva um numero: "); 
+function verificadorPositivoNegativoZero (){
+    let num = Number(prompt("escreva um numero: ")); 
 
 if(num > 0){
     console.log("positivo."); 
@@ -7,3 +8,5 @@ if(num > 0){
 }else{
     console.log("o numero é zero."); 
 }
+}
+verificadorPositivoNegativoZero ();
