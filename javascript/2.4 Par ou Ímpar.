@@ -1,7 +1,10 @@
-let num = prompt("digite um numero: "); 
+function verificadorParOuImpar (){
+    let num = prompt("digite um numero: "); 
 
 if(num % 2 ==0){
     console.log("o numero "+ num + " é par");
 }else{
     console.log("o numero "+ num + " é impar");
 }
+}
+verificadorParOuImpar (); 
