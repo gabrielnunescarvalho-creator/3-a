@@ -1,6 +1,6 @@
  function multiplicador (){
      
-    for (let i = 5; i <= 50; i++){
+    for (let i = 0; i <= 10; i++){
         let mult = i * 5; 
       console.log(mult);   
     }
