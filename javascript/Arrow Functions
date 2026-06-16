@@ -32,12 +32,8 @@ console.log(converterCelsius(72));
 //3: Crie as seguintes Arrow Functions do zero de forma super simplificada (em apenas uma linha,
 //usando o retorno implícito):
 
-const somarMaisUm = (soma) => {
-    return (soma + 1); 
-};
+const somarMaisUm = (soma) =>  (soma + 1); 
 console.log(somarMaisUm (18));
 
-const subtrairUmNUmero = (a,b) =>{
-    return (a - b);
-};
+const subtrairUmNUmero = (a,b) => (a - b);
 console.log(subtrairUmNUmero(17,15));
