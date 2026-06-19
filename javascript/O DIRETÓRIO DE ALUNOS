@@ -30,4 +30,6 @@ let escolaAluno = [
      escolaAluno[1].mediaNota();
      escolaAluno[2].mediaNota();
     
-    
+    escolaAluno.forEach(aluno => {
+        console.log(`aluno ${aluno.nome}! com a nota ${aluno.nota}!`);
+    }); 
