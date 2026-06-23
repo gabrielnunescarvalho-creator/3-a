@@ -1,0 +1,7 @@
+const carregarSistema = () => {
+    console.log("sistema carregado com sucesso!");
+};
+
+setTimeout(function() {
+    carregarSistema();
+}, 2000);
